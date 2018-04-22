@@ -23,7 +23,7 @@ public class Keypad {
 		    int tmpint =  Integer.parseInt(keypad.br.readLine());
 		    /*System.out.println(tmpint);*/
 		    return tmpint;
-        }catch (IOException e){
+        }catch (Exception e){
             return -1;
         }
 	}

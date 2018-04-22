@@ -26,5 +26,5 @@ public abstract class pokemon implements skill{
     public void setUnique(int theUnique){
         unique = theUnique;
     }
-    public abstract int action();
+    public abstract int action(int WildpokemonATK);
 }
